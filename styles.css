@@ -1,0 +1,141 @@
+/* Your Styles Here */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+}
+button {
+    margin-right: 20px;
+    padding: 15px 32px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.intro {
+    background-color: #0B6138;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: dotted;
+}
+#before-name {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(90deg, #81F79F, #81DAF5, #BCA9F5, #A9D0F5, #A9F5D0);
+    background-size: 300%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate1 5s linear infinite;
+}
+#name {
+    font-size: 40px;
+    background: linear-gradient(90deg, #31B404, #01A9DB, #9F81F7);
+    background-size: 300%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate1 3s linear infinite;
+}
+.me {
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    height: auto;
+}
+.me:hover {
+    background-color: yellow;
+    width: 210px;
+    height: auto;
+    margin-bottom: -10px;
+}
+h3 {
+    font-size: 25px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: blue;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+@keyframes animate1 {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 300%;
+    }
+}
+.passion {
+    margin: 20px;
+    padding: 15px;
+    background-color: #086A87;
+    border-style: solid;
+}
+.passion:hover {
+    background-color: #0B615E;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 10px;
+    background-color: white;
+}
+a:link {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: yellow;
+}
+.locTitle {
+    margin-top: -5px;
+    background-color: gray;
+}
+#edh {
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 30px;
+    background: linear-gradient(90deg, white, gray);
+    background-size: 300%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate1 7s linear infinite;
+}
+.locInfo {
+    padding: 20px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.locInfo>* {
+    flex: 50%;
+}
+#grass, #town {
+    width: 40px;
+    height: auto;
+    border-radius: 10%;
+}
+p3 {
+    font-size: 20px;
+}
