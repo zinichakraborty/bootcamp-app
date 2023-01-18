@@ -1,6 +1,6 @@
 function locationFunction() {
-    location.href = "/loc.html";
+    location.href = "loc.html";
 }
 function homeFunction() {
-    location.href = "/index.html";
+    location.href = "index.html";
 }
